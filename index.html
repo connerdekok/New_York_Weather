@@ -21,6 +21,22 @@
   </script>
 </head>
 <body>
+  <nav id="charts" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Charts</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">Bar Chart</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Box and Whisker Chart</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Daily Max Temp</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Yearly Max, Min, & Avg Temp</a>
+    </li>
+  </nav>
   <div class="card card-body bg-light">
     <h6>Select the Month:</h6>
     <select id="selDataset" onchange="optionChanged(this.value)">
@@ -38,20 +54,21 @@
       <option value="December">December</option>
     </select>
   </div>
-  <div>
-    <h3>Bar Chart</h3>
+  <div> 
+    <div data-bs-spy="scroll" data-bs-target="charts" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <h3 id="scrollspyHeading1">Bar Chart</h3>
     <img id="barchartImage" src='static/Januarybarchart.png' alt="Bar Chart" style="width: 600px; height: 400px;">
   </div>
   <div>
-    <h3>Box and Whisker Chart</h3>
+    <h3 id="scrollspyHeading2">Box and Whisker Chart</h3>
     <img id="boxwhiskerImage" src="static/Januaryboxwhisker.png" alt="Box and Whisker Chart" style="width: 600px; height: 400px;">
   </div>
   <div>
-    <h3>Daily Max Dry Bulb Temperature Chart</h3>
+    <h3 id="scrollspyHeading3">Daily Max Dry Bulb Temperature Chart</h3>
     <img id="dailymaxtempImage" src="static/Januarydailymaxtemp.png" alt="Daily Max Dry Bulb Temp Chart" style="width: 600px; height: 400px;">
   </div>
   <div>
-    <h3>Max, Min, & Avg Dry Bulb Temperature Chart</h3>
+    <h3 id="scrollspyHeading4">Max, Min, & Avg Dry Bulb Temperature Chart</h3>
     <img id="maxminavgImage" src="static/Januarymaxminavgline.png" alt="Max, Min, & Avg Dry Bulb Temp Chart" style="width: 600px; height: 400px;">
   </div>
 </body>
