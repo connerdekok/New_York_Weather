@@ -8,8 +8,10 @@ visualized to highlight trends, with particular attention from January and
 December. The project utilizes data cleaning, processing, and visualization
 techniques to present the findings.
 
-### Repo Path-
+### Repo Path and HTML 
 Link to repository: https://github.com/connerdekok/New_York_Weather
+
+Link to HTML: https://connerdekok.github.io/New_York_Weather/ 
 
 
 
