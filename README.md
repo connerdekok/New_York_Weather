@@ -1,12 +1,20 @@
-README: Weather Data Analysis
-Overview
-This 3 rd project focuses on analyzing historical weather data for New York,
+# Albany New York Weather Data Analysis
+
+## Overview
+This 3 rd project focuses on analyzing historical weather data for Albany, New York,
 specifically looking at patterns in daily precipitation, snow depth, and snowfall.
 The data is processed to calculate monthly averages over several years and
 visualized to highlight trends, with particular attention from January and
 December. The project utilizes data cleaning, processing, and visualization
 techniques to present the findings.
-Step-by-Step Process
+
+### Repo Path-
+Link to repository: https://github.com/connerdekok/New_York_Weather
+
+
+
+
+### Step-by-Step Process-
 1. Data Import and Initial Cleaning:
 o The raw weather data, which includes various daily metrics such as
 precipitation, wind speed, and temperature, is imported from a CSV
@@ -70,7 +78,7 @@ visualization helps understand if certain patterns, such as snowfall
 or precipitation, are consistent between months or change
 drastically.
 
-Key Learnings
+### Key Learnings-
  The project demonstrates how historical weather data can be cleaned,
 processed, and visualized to extract meaningful insights.
 
@@ -84,10 +92,25 @@ Tools Used
 data.
  SQLite: Used to store and query the processed data for further analysis.
  HTML and CSS.
-Conclusion
+
+### Conclusion-
 This weather data analysis project provides a clear overview of historical weather
 trends for New York, focusing on key metrics like precipitation, snow depth, and
 snowfall. Through data cleaning, grouping by month and year, and visualization,
 it becomes possible to better understand how the weather has evolved over time,
 particularly in the winter months. The visualizations make it easy to identify
 patterns and fluctuations, offering insights into broader weather trends.
+
+### Presentation-
+
+Link to slides: https://docs.google.com/presentation/d/1DDAOG-4cZrGRqtyNkuCCLL0oMCopsJek1dMTXNAw9wE/edit#slide=id.g2fcb12c194c_0_28
+
+
+### Credit and Sources- 
+
+Dataset: https://www.kaggle.com/datasets/die9origephit/temperature-data-albany-new-york 
+
+Outside of class library used: https://getbootstrap.com/docs/5.3/components/scrollspy/
+
+
+
