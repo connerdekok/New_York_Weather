@@ -1,7 +1,7 @@
 # Albany New York Weather Data Analysis
 
 ## Overview
-This 3 rd project focuses on analyzing historical weather data for Albany, New York,
+This 3 rd project focuses on analyzing historical weather data for Albany, New York
 specifically looking at patterns in daily precipitation, snow depth, and snowfall.
 The data is processed to calculate monthly averages over several years and
 visualized to highlight trends, with particular attention from January and
@@ -95,7 +95,7 @@ data.
 
 ### Conclusion-
 This weather data analysis project provides a clear overview of historical weather
-trends for New York, focusing on key metrics like precipitation, snow depth, and
+trends for Albany, New York focusing on key metrics like precipitation, snow depth, and
 snowfall. Through data cleaning, grouping by month and year, and visualization,
 it becomes possible to better understand how the weather has evolved over time,
 particularly in the winter months. The visualizations make it easy to identify
