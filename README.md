@@ -2,11 +2,11 @@
 
 ## Overview
 This project focuses on analyzing historical weather data for Albany, New York
-specifically looking at patterns in daily precipitation, snow depth, and snowfall.
-The data is processed to calculate monthly averages over several years and
-visualized to highlight trends, with particular attention from January and
-December. The project utilizes data cleaning, processing, and visualization
-techniques to present the findings.
+specifically looking at patterns in daily precipitation, snow depth, and snowfall to 
+observe changes in weather patterns/trends. The data is processed to calculate 
+monthly averages over several years and visualized to highlight trends, 
+with particular attention from January and December. The project utilizes data 
+cleaning, processing, and visualization techniques to present the findings.
 
 ### Repo Path and HTML 
 Link to repository: https://github.com/connerdekok/New_York_Weather
