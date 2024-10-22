@@ -1,7 +1,7 @@
 # Albany New York Weather Data Analysis
 
 ## Overview
-This 3 rd project focuses on analyzing historical weather data for Albany, New York
+This project focuses on analyzing historical weather data for Albany, New York
 specifically looking at patterns in daily precipitation, snow depth, and snowfall.
 The data is processed to calculate monthly averages over several years and
 visualized to highlight trends, with particular attention from January and
@@ -18,63 +18,63 @@ Link to HTML: https://connerdekok.github.io/New_York_Weather/
 
 ### Step-by-Step Process-
 1. Data Import and Initial Cleaning:
-o The raw weather data, which includes various daily metrics such as
+ The raw weather data, which includes various daily metrics such as
 precipitation, wind speed, and temperature, is imported from a CSV
 file.
-o We then selected only the relevant columns for this analysis,
+ We then selected only the relevant columns for this analysis,
 specifically those related to precipitation, snow depth, and snowfall,
 to streamline the dataset and focus on key weather metrics.
 
 2. Date Formatting and Sorting:
-o The date column, which originally stored values as strings, is
+ The date column, which originally stored values as strings, is
 converted into a proper date format. This allows for easier extraction
 of month and year information later.
-o The data is then sorted by date to ensure it&#39;s in chronological order,
+ The data is then sorted by date to ensure it&#39;s in chronological order,
 which is critical for time-series analysis.
 3. Extracting Year and Month Information:
-o From the cleaned date column, new columns for the year and month
+ From the cleaned date column, new columns for the year and month
 are created. This step allows for grouping the data by month and
 year, which is essential for calculating monthly averages and
 analyzing year-over-year trends.
 4. Handling Special Data Values:
-o Some values in the dataset, particularly in the precipitation and
+ Some values in the dataset, particularly in the precipitation and
 snowfall columns, contain &quot;T&quot; (trace values), which indicate an
 amount too small to measure. These values are replaced with zeros
 to ensure accurate numerical analysis.
 
 5. Data Conversion:
 
-o The weather metrics related to precipitation, snow depth, and
+ The weather metrics related to precipitation, snow depth, and
 snowfall are converted into numeric values (floats) to facilitate
 calculations and statistical analysis. This step ensures the data can
 be processed accurately during the aggregation step.
 
 6. Saving Cleaned Data:
-o After cleaning and processing the data, it is saved in two formats: as
+ After cleaning and processing the data, it is saved in two formats: as
 a CSV file for easy access and as a database file (SQLite). Saving the
 data in these formats ensures it can be easily shared or reused for
 future analyses.
 7. Grouping Data for Analysis:
-o The dataset is grouped by month and year, allowing for the
+ The dataset is grouped by month and year, allowing for the
 calculation of average values for each weather metric (precipitation,
 snow depth, and snowfall). This grouping step provides a summary
 of how the weather changes from year to year for each month.
 
 8. Focusing on January and February Data:
-o The analysis then narrows in on specific months, particularly
+ The analysis then narrows in on specific months, particularly
 January to December, to identify trends in these winter months over
 multiple years. This approach is useful for identifying any significant
 changes in weather patterns.
 
 9. Visualization:
-o The monthly averages from January to December are visualized
+ The monthly averages from January to December are visualized
 using bar charts. Each bar represents the average weather metric
 (e.g., snowfall, precipitation) for a given year. These charts make it
 easy to compare weather trends across years and spot any
 anomalies or significant changes.
 
 10. February Data Analysis:
-o The same process used for January is applied to February data,
+ The same process used for January is applied to February data,
 allowing for a direct comparison of these two winter months. This
 visualization helps understand if certain patterns, such as snowfall
 or precipitation, are consistent between months or change
@@ -129,6 +129,10 @@ and analyzed, the easier it will be to detect long term changes.
 ### Presentation-
 
 Link to slides: https://docs.google.com/presentation/d/1DDAOG-4cZrGRqtyNkuCCLL0oMCopsJek1dMTXNAw9wE/edit#slide=id.g2fcb12c194c_0_28
+
+### Graphs-
+
+Are located in the static folder inside of the repository.
 
 
 ### Credit and Sources- 
