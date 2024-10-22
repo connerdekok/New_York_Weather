@@ -80,6 +80,22 @@ visualization helps understand if certain patterns, such as snowfall
 or precipitation, are consistent between months or change
 drastically.
 
+### How to view and website
+  Clicking on the repository link (https://github.com/connerdekok/New_York_Weather) 
+will bring you to where our charts can be viewed. There is a drop down menu where
+you can select which month you'd like to view. Then you will see four different 
+charts. First a bar chart showing the average precipitation for each year of the month selected,
+and then a box and whisker chart also showing the average precipitation throughout the years.
+Then there's a line chart that shows the daily maximum dry bulb temperature for each day for every year 
+for the month selected, and lastly there is a another line chart that shows the average maximum, miniumum, 
+and average dry bulb temperature for each year of the month selected. 
+
+  The library not taught in class is a bootstraps library called Scrollspy where the website will
+scroll to a part of the website which is selected using the links at the top of the page 
+
+  
+  
+
 ### Key Learnings-
  The project demonstrates how historical weather data can be cleaned,
 processed, and visualized to extract meaningful insights.
@@ -96,12 +112,19 @@ data.
  HTML and CSS.
 
 ### Conclusion-
-This weather data analysis project provides a clear overview of historical weather
+  This weather data analysis project provides a clear overview of historical weather
 trends for Albany, New York focusing on key metrics like precipitation, snow depth, and
 snowfall. Through data cleaning, grouping by month and year, and visualization,
 it becomes possible to better understand how the weather has evolved over time,
 particularly in the winter months. The visualizations make it easy to identify
 patterns and fluctuations, offering insights into broader weather trends.
+
+  Rapid temperature and precipitation changes like observing trends
+of more intense snowfall some years ad then reduced in others could be isolated incidents attributed 
+to natural climate cylces, but also could be evidence of climate change. It's important to 
+observe the data and trends over long periods of time to see if weather pattern changes are
+isolated events or indicative of a long term change. The more years of data that is collected
+and analyzed, the easier it will be to detect long term changes. 
 
 ### Presentation-
 
