@@ -134,6 +134,11 @@ Link to slides: https://docs.google.com/presentation/d/1DDAOG-4cZrGRqtyNkuCCLL0o
 
 Are located in the static folder inside of the repository.
 
+### Data Ethics-
+When handling weather data, especially data originating from public or governmental sources, it is essential to navigate the legal and ethical landscape carefully.
+Even though weather data is often considered public domain, such data may still be subject to intellectual property rights, particularly when processed into datasets or visualizations.
+Therefore, it is crucial to verify the licensing terms governing the use of the data, particularly when considering commercial applications or redistribution.
+Additionally, when merging weather data with other datasets, it is vital to ensure proper data security and compliance with privacy regulations.
 
 ### Credit and Sources- 
 
