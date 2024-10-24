@@ -87,7 +87,7 @@ you can select which month you'd like to view. Then you will see four different
 charts. First a bar chart showing the average precipitation for each year of the month selected,
 and then a box and whisker chart also showing the average precipitation throughout the years.
 Then there's a line chart that shows the daily maximum dry bulb temperature for each day for every year 
-for the month selected, and lastly there is a another line chart that shows the average maximum, miniumum, 
+for the month selected, and lastly there is a another line chart that shows the average maximum, minimum, 
 and average dry bulb temperature for each year of the month selected. 
 
   The library not taught in class is a bootstraps library called Scrollspy where the website will
